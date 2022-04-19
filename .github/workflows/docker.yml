@@ -24,7 +24,7 @@ jobs:
       
       - name: docker build csharp
         run: |
-          docker build csharp -t yzwdroid/csharp:1.0.0
+          docker build ./c# -t yzwdroid/csharp:1.0.0
 
       - name: docker build nodejs
         run: |
