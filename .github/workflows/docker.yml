@@ -32,6 +32,4 @@ jobs:
       - name: docker build python
         run: |
           docker build ./python -t yzwdroid/python:1.0.0
-      - name: docker build golang
-        run: |
-          docker build ./golang -t yzwdroid/golang:1.0.0
+
